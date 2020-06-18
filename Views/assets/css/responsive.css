@@ -1,0 +1,137 @@
+@media (min-width:1366px) {
+	#header {
+		height: 100vh;
+	}
+
+}
+
+@media (max-width:1024px) {
+	#shtije, #arka, #regjistrimi-mallit, #printimi-barkodit, #stoku, #statistikat, #shitje-post, #njoftimet, #paisjet {
+		height: 50vh;
+	}
+
+	#header {
+		height: 50vh;
+	}
+
+	#klientat-tone {
+		height: 30vh;
+	}
+
+	nav .nav-link {
+		font-size: 12px;
+	}
+
+}
+
+@media(min-width:1024px) {
+	.w-md-25 {
+		width: 25% !important;
+	}
+
+	main .shitja p {
+		font-size: 17px;
+	}
+
+}
+
+@media (max-width:768px) {
+	.top-right {
+		position: relative;
+	}
+
+	.top-right-1 {
+		position: relative;
+		height: 30vh;
+	}
+
+	.img-top-right {
+		position: static;
+	}
+
+	.img-top-right {
+		display: block;
+	}
+
+	nav .nav-link {
+		color: #000;
+	}
+
+	.c-card {
+		display: none;
+	}
+
+	.navbar-toggler .email-title {
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	#shtije, #arka, #regjistrimi-mallit, #printimi-barkodit, #stoku, #statistikat, #shitje-post, #njoftimet, #paisjet {
+		height: 70vh;
+	}
+
+	#header {
+		height: 70vh;
+	}
+
+	nav .nav-link {
+		font-size: 14px;
+	}
+
+}
+
+@media(max-width:575px) {
+
+	/* .mobile-nav{
+		  display: grid;
+		  grid-template-columns: 1fr 1fr!important; 
+		} */
+	.section-title {
+		font-size: 24px !important;
+	}
+
+	.section-paragraph {
+		font-size: 12px !important;
+	}
+
+	.top-right {
+		position: relative;
+	}
+
+	.top-right-1 {
+		position: relative;
+	}
+
+	.img-top-right {
+		position: static;
+	}
+
+	.img-top-right {
+		display: none;
+	}
+
+	nav .nav-link {
+		color: #000;
+	}
+
+	.c-card {
+		display: none;
+	}
+
+	.navbar-toggler .email-title {
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	.cus-img-res {
+	}
+
+	#shtije, #arka, #regjistrimi-mallit, #printimi-barkodit, #stoku, #statistikat, #shitje-post, #njoftimet, #paisjet {
+		height: 70vh;
+	}
+
+	#header {
+		height: 80vh;
+	}
+
+}
